@@ -1,13 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="so">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<title>Nidaamka Gaadiidka PRO</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="main.js">
 
-    </script>
+<header class="navbar">
+  <div class="logo">PRO-TRANS</div>
+  <nav>
+    <a href="#home">Bogga Hore</a>
+    <a href="#services">Adeegyada</a>
+    <a href="#booking">Booqasho</a>
+    <a href="#contact">Nala Soo Xiriir</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>Nidaamka Gaadiidka Casriga ah</h1>
+  <p>Degdeg • Badbaado • La Aamini Karo</p>
+  <button id="heroBtn">Booqasho Hadda</button>
+</section>
+
+<section class="services" id="services">
+  <h2>Adeegyadeena</h2>
+
+  <div class="service-grid">
+    <div class="card">🚚 Gaadiidka Alaabta</div>
+    <div class="card">🚌 Gaadiidka Dadweynaha</div>
+    <div class="card">📦 Adeegyada Logistikada</div>
+  </div>
+</section>
+
+<section class="booking" id="booking">
+  <h2>Booqasho Online</h2>
+
+  <form id="bookingForm">
+
+    <input type="text" id="name" placeholder="Magaca Buuxa">
+    <input type="text" id="pickup" placeholder="Meesha Laga Qaadayo">
+    <input type="text" id="drop" placeholder="Meesha Laga Dhigayo">
+    <input type="date" id="date">
+
+    <button type="submit">Gudbi Booqasho</button>
+
+  </form>
+
+  <p id="msg"></p>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Nala Soo Xiriir</h2>
+  <p>📧 Email: info@protrans.com</p>
+  <p>📞 Taleefan: +252 61 1234567</p>
+</section>
+
+<footer>
+  <p id="footerText"></p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
